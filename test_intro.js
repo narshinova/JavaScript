@@ -51,9 +51,9 @@ console.log("item_7 = " + item_7, "item_7_type = " + item_7_type);
 // 32. Если age_1  > age_3, вывести в консоль “Keep calm and look Culture channel”.
 // 33. Иначе выводите “Technical work”.
 
-age_1 = 10;
-age_2 = 18;
-age_3 = 60;
+const age_1 = 10;
+const age_2 = 18;
+const age_3 = 60;
 
 if (age_1 < age_2) {
     console.log("You don’t have access cause your age is " + age_1 + " It’s less then " + age_2)
